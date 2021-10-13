@@ -1,6 +1,6 @@
 
 #!/bin/bash
-touch text.json
+# touch text.json
 
 if test -f "text.json"; then
     echo "It seems the file already exists. "

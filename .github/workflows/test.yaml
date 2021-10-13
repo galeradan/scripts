@@ -8,5 +8,4 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - name: Checking for approval
-        uses: actions/checkout@v2
-        run: . ./test.sh  
+        run: ls -l

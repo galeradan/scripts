@@ -10,3 +10,4 @@ jobs:
     - name: Run script file
       run: |
          ./scripts/test.bash
+      shell: bash

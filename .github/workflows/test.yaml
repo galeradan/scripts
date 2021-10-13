@@ -4,8 +4,11 @@ on:
   push:
     branches: main
 jobs:
-  should-run-check:
+  run_tests:
     runs-on: ubuntu-20.04
     steps:
-      - name: Checking for approval
-        run: . ./scripts/test.sh
+    - uses: actions/checkout@v2
+    - name: Run script file
+      run: |
+         ./scripts/test.bash
+      shell: bash

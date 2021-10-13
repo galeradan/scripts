@@ -8,6 +8,4 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - name: Checking for approval
-        run: |
-          cd .
-          ls -la
+        run: . ./scripts/test.sh

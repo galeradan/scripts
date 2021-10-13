@@ -1,4 +1,5 @@
 
+#!/bin/bash
 touch text.json
 
 if test -f "text.json"; then
